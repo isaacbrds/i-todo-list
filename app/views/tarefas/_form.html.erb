@@ -1,0 +1,4 @@
+<%= form_with(model: tarefa, id: 'input' ) do |form| %>
+  <%= form.text_field :nome, placeholder: 'Add your task here...', class: 'form-control', required: true %>
+  <%= form.submit "submit", class: "submit-btn" %>
+<% end %>
